@@ -21,6 +21,7 @@ public class MainApp {
         } catch (ClassNotFoundException | InstantiationException
                  | IllegalAccessException | UnsupportedLookAndFeelException ignored) {
         }
+        System.out.println("Hello Tài");
 
         // Chạy UI trên EDT
         SwingUtilities.invokeLater(() -> {
