@@ -21,7 +21,7 @@ public class MainApp {
         } catch (ClassNotFoundException | InstantiationException
                  | IllegalAccessException | UnsupportedLookAndFeelException ignored) {
         }
-
+        System.out.println("Hello world");
         // Chạy UI trên EDT
         SwingUtilities.invokeLater(() -> {
             // Mở màn hình đăng nhập (modal)
